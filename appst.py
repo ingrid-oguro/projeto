@@ -7,11 +7,11 @@ import altair as alt
 
 #Para importar a base de dados (obs: extrair caminho da pasta do colab com botão direito do mouse) e
 #remover as linhas que têm espaço vazio (e.g., notas ainda não lançadas):
-base = pd.read_excel('/content/drive/MyDrive/Streamlit/20221.xlsx')#nova base não funcionando
+base = pd.read_excel('/20221.xlsx')#nova base não funcionando
 base.dropna(inplace=True)
 
 #Para importar a base de dados sem remover as linhas que têm espaço vazio:
-base0 = pd.read_excel('/content/drive/MyDrive/Streamlit/20221.xlsx')
+base0 = pd.read_excel('/20221.xlsx')
 
 #Para definir as configurações da aba e da página:
 PAGE_CONFIG = {"page_title": "ESEG - Apoio ao aluno", "page_icon": ":globe_with_meridians:", "layout": "wide"}
