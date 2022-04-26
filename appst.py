@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+import openpyxl
 
 #Para fazer o tratamento da base posteriormente com o pandas: df_tratado = modulo_ajusta_base(df_bruto)
 
