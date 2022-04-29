@@ -4,6 +4,7 @@ import pandas as pd
 import altair as alt
 import pip
 pip.main(["install", "openpyxl"])
+#oi
 
 #Para fazer o tratamento da base posteriormente com o pandas: df_tratado = modulo_ajusta_base(df_bruto)
 
