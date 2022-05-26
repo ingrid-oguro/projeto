@@ -160,7 +160,7 @@ with colb:
     st.header(titulo if len(cursos) < 5 else prefixo0 + 'GERAL')
 
 with colb1:
-    st.markdown('##### Média simples das notas lançadas de cada aluno nas disciplinas do período letivo de 2022-2 '
+    st.markdown('##### Média simples das notas lançadas de cada aluno nas disciplinas do período letivo de 2021-2 '
                 '(desconsidera os cálculos dos planos de ensino).')
     st.markdown('##### Dados atualizados até a P2.')
 with cold2:
