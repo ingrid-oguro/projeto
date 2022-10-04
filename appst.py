@@ -9,7 +9,7 @@ pip.main(["install", "openpyxl"])
 
 #Para importar a base de dados (obs: extrair caminho da pasta do colab com botão direito do mouse) e
 #remover as linhas que têm espaço vazio (e.g., notas ainda não lançadas):
-base = pd.read_excel('20221.xlsx')
+base = pd.read_excel('base_20222.xlsx')
 base.dropna(inplace=True)
 
 #Para importar a base de dados sem remover as linhas que têm espaço vazio:
