@@ -315,7 +315,7 @@ cola6, colb6, colc6, cold6, cole6 = st.columns((1, 1, 0.2, 7, 0.2))
 cola7, colb7, colc7, cold7 = st.columns((2, 0.2, 7, 0.2))
 with cola7:
     opcoes_do_botao_aluno = sorted(base.NOME.unique())  # botão aluno
-    aluno_selecionado = st.multiselect('NOME DO ALUNO', opcoes_do_botao_aluno, 'Ahmad Hali El Majdoub')
+    aluno_selecionado = st.multiselect('NOME DO ALUNO', opcoes_do_botao_aluno, opcoes_do_botao_aluno)
     base_aluno = base.query('NOME == @aluno_selecionado')
     opcoes_semestre3 = sorted(base_aluno.SEMESTRE.unique())
     semestre_selecionado2 = st.multiselect('Semestre', opcoes_semestre3, opcoes_semestre3)
