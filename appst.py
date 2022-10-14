@@ -2,18 +2,18 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-#import pip
-#pip.main(["install", "openpyxl"])
+import pip
+pip.main(["install", "openpyxl"])
 
 #Para fazer o tratamento da base posteriormente com o pandas: df_tratado = modulo_ajusta_base(df_bruto)
 
 #Para importar a base de dados (obs: extrair caminho da pasta do colab com botão direito do mouse) e
 #remover as linhas que têm espaço vazio (e.g., notas ainda não lançadas):
-base = pd.read_excel('/content/drive/MyDrive/Relatórios_20222/Desempenho/Base 13102022v.xlsx')
+base = pd.read_excel('/Base 13102022v.xlsx')
 base.dropna(inplace=True)
 
 #Para importar a base de dados sem remover as linhas que têm espaço vazio:
-base0 = pd.read_excel('/content/drive/MyDrive/Relatórios_20222/Desempenho/Base 13102022v.xlsx')
+base0 = pd.read_excel('/Base 13102022v.xlsx')
 
 #Para definir as configurações da aba e da página:
 PAGE_CONFIG = {"page_title": "ESEG - Apoio ao aluno", "page_icon": ":globe_with_meridians:", "layout": "wide"}
