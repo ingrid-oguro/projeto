@@ -3,10 +3,10 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-base = pd.read_excel('/content/drive/MyDrive/Relatórios_20222/Desempenho/Base 17102022v.xlsx')
+base = pd.read_excel('Base 17102022v.xlsx')
 base.dropna(inplace=True)#remover as linhas que têm espaço vazio (e.g., notas ainda não lançadas)
 #Para importar a base de dados sem remover as linhas que têm espaço vazio:
-base0 = pd.read_excel('/content/drive/MyDrive/Relatórios_20222/Desempenho/Base 17102022v.xlsx')
+base0 = pd.read_excel('Base 17102022v.xlsx')
 m = st.markdown("""
 <style>
 span[role="button"] {
