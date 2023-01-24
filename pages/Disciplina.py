@@ -59,7 +59,7 @@ element.style {
 h2{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
-    color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
     letter-spacing: -0.005em;
     padding: 0rem 0px;
     margin: 0px;
@@ -68,7 +68,7 @@ h2{
 h4 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
-    color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
     padding: 0rem 0px 0rem;
     margin: 0px;
     line-height: 1.2;
@@ -76,7 +76,7 @@ h4 {
 h5 {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
-    color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
     padding: 0px 0px 0.3rem;
     margin: 0px;
     line-height: 1.2;
