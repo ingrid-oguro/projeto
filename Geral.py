@@ -67,7 +67,7 @@ element.style {
 h2{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
-    color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
     letter-spacing: -0.005em;
     padding: 0rem 0px;
     margin: 0px;
